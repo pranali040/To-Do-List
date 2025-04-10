@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="task">
+    <h2>To-Do List</h2>
+    <app-task-item (taskAdded)="addTask($event)"></app-task-item>
+    <app-task-list [tasks]="tasks" (tasksChanged)="updateTasks($event)"></app-task-list>
+  </div>
+</div>

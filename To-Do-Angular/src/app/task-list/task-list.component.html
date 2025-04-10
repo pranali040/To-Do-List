@@ -1,0 +1,11 @@
+<ul id="task-list">
+  <li 
+    *ngFor="let task of tasks; let i = index" 
+    [class.checked]="task.checked"
+    (click)="toggleCheck(i)"
+  >
+    <span class="task-text">{{ task.text }}</span>
+    <span class="edit-btn" (click)="editTask(i); $event.stopPropagation()">✎</span>
+    <span class="delete-btn" (click)="deleteTask(i); $event.stopPropagation()">×</span>
+  </li>
+</ul>

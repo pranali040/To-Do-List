@@ -1,0 +1,71 @@
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 20px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: '';
+    position: absolute;
+    left: -20px; 
+    top: 8px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url('https://th.bing.com/th/id/R.c9af8efe164f75b2d3aaebf5534892b0?rik=Kgt3pUp0woXM3A&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fcircle-png-circle-png-hd-1600.png&ehk=puEtd%2fOecJlU5MP64BesMRP9JnTIBa%2f1ChZYvpVN7Xc%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .task-text {
+    position: relative;
+    top: -9px;
+    color: black;
+  }
+  
+  ul li.checked .task-text {
+    text-decoration: line-through;
+    color: #555;
+  }
+  
+  ul li.checked::before {
+    background-image: url('https://imagepng.org/wp-content/uploads/2019/12/check-icone-1-scaled.png');
+  }
+  
+  ul li span {
+    height: 20px;
+    font-size: 22px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  ul li span:hover {
+    background: #edeef0;
+  }
+  
+  .edit-btn {
+    position: absolute;
+    right: 45px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .delete-btn {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
