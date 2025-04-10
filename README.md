@@ -23,7 +23,7 @@ This repository contains two versions of a To-Do List web application:
 ## 💡 How to Use
 
 ### 🔧 For HTML/JS version:
-- Open the plain-js-todo/index.html file in any browser.
+- Open the index.html file in any browser.
 - You're good to go!
 
 ### 🅰️ For Angular version:
