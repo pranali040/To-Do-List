@@ -1,6 +1,10 @@
 # To-Do-List
 
-A simple and elegant To-Do List application built using HTML, CSS, and JavaScript. It allows users to add, mark complete, edit, and delete tasks.  It also uses `localStorage` to save tasks across browser sessions.
+A simple To-Do List application built. It allows users to add, mark complete, edit, and delete tasks.  It also uses `localStorage` to save tasks across browser sessions.
+
+This repository contains two versions of a To-Do List web application:
+- A simple HTML, CSS, JavaScript version.
+- An Angular version using @Input and @Output decorators.
 
 ## 🔧 Features
 - ✅ Add Task – Input your task and click "Add".
@@ -13,18 +17,20 @@ A simple and elegant To-Do List application built using HTML, CSS, and JavaScrip
 - HTML5
 - CSS3
 - JavaScript
+- Angular 18
 - LocalStorage API
 
-## 📂 Folder Structure
-
-📁 todo-app ├── index.html ├── styles.css ├── script.js └── README.md
-
 ## 💡 How to Use
-- Open index.html in your browser.
-- Enter your task in the input field.
-- Click the "Add" button.
-- Use ✏️ to edit or ❌ to delete a task.
-- Click a task to mark it as completed.
+
+### 🔧 For HTML/JS version:
+- Open the plain-js-todo/index.html file in any browser.
+- You're good to go!
+
+### 🅰️ For Angular version:
+- Navigate to the Angular project folder: cd angular-todo
+- Install dependencies: npm install
+- Run the app: ng serve
+- Open your browser at http://localhost:4200
 
 ## Screenshot
 
